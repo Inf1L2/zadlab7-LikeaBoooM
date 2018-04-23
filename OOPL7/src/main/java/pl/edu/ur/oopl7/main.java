@@ -22,7 +22,7 @@ public class main {
 
         for(int i=0;i<100;i++){
             if (array2D[i].getX() == array3D[i].getX() && array2D[i].getY() == array3D[i].getY()){
-                System.out.println(array2D[i].toString()+" | "+array3D[i].toString());
+                System.out.println(array2D[i].toString()+array3D[i].toString());
 
         }
         }
