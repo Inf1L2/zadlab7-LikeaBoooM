@@ -32,7 +32,7 @@ public class Punkt3D extends Punkt2D {
     x = ((-10) + 20)*n.nextInt();
     y = ((-10) + 20)*n.nextInt();  
     z = ((-10) + 20)*n.nextInt();   
-    Punkt3D p = new Punkt3D(n.nextInt(21)-10,n.nextInt(21)-10,n.nextInt(21)-10);
+    Punkt3D p = new Punkt3D(n.nextInt(x),n.nextInt(y),n.nextInt(z));
     return p;
 }
 

@@ -36,7 +36,7 @@ public class Punkt2D {
         Random n = new Random();
         x = ((-10) + 20)*n.nextInt();
         y = ((-10) + 20)*n.nextInt();
-        Punkt2D p = new Punkt2D(n.nextInt(21)-10,n.nextInt(21)-10);
+        Punkt2D p = new Punkt2D(n.nextInt(x),n.nextInt(y));
         return p;
         
     }
